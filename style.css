@@ -8,6 +8,11 @@ body {
   letter-spacing: 0.06em;
   color: #212121;
 }
+.container {
+  width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
 a {
   text-decoration: none;
 }
@@ -44,11 +49,13 @@ ul {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  margin-bottom: 30px;
 }
 .hero-button {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
+  margin-bottom: 294px;
 }
 .features-title {
   font-size: 36px;
@@ -62,6 +69,8 @@ ul {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-bottom: 10px;
+  padding-left: 30px;
 }
 .features-name-desc {
   font-weight: 400;
@@ -69,6 +78,8 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #75757;
+  padding-left: 30px;
+  margin-bottom: 90px;
 }
 .services-title {
   font-size: 36px;
@@ -77,6 +88,11 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+  margin-bottom: 50px;
+}
+.services-list-item {
+  padding-left: 30px;
+  margin-bottom: 90px;
 }
 .team-title {
   font-size: 36px;
@@ -85,13 +101,21 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+  margin-bottom: 50px;
 }
+.team-list-item {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
 .team-name {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+  padding-left: 100px;
+  margin-bottom: 10px;
 }
 .team-name-position {
   font-size: 16px;
@@ -100,10 +124,13 @@ ul {
   letter-spacing: 0.03em;
   text-align: center;
   color: #757575;
+  padding-left: 100px;
+  margin-bottom: 180px;
 }
 /* Футер сайту */
 .logo-studio-footer {
   color: #ffffff;
+  margin-bottom: 20px;
 }
 .address-name {
   font-weight: 400;
@@ -111,6 +138,7 @@ ul {
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff;
+  margin-bottom: 10px;
 }
 .address-contacts {
   font-weight: 400;
